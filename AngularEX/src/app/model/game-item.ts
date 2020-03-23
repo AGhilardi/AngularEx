@@ -1,5 +1,5 @@
 export interface GameItem {
-    id:string;
+    id:number;
     nome:string;
     desc:string;
     gen:string;

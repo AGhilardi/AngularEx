@@ -1,1 +1,3 @@
-<p>games-list works!</p>
+<ul>
+    <li *ngFor="let gameItem of gameList">{{gameItem.nome}} | genere:{{gameItem.gen}} | rating:{{gameItem.rate}}</li>
+</ul>
