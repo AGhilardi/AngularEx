@@ -1,5 +1,5 @@
 export interface MenuItem {
-    id:string;
+    id:number;
     desc:string;
     select:boolean;
 }

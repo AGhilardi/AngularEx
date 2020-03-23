@@ -1,1 +1,6 @@
-<p>menu works!</p>
+<ul>
+    <li *ngFor="let menuItem of menuList" [class.active]="menuItem.select">{{menuItem.desc}}
+        <button (click)="switchPage(menuItem.id)">bruh</button>
+
+    </li>
+</ul>
